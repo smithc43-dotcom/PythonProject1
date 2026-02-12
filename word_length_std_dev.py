@@ -37,4 +37,4 @@ def word_length_std_dev(text):
 
     # Compute the sample standard deviation
     sample_std_dev = (squared_diff_sum / (num_words - 1)) ** 0.5
-     return sample_std_dev
+    return sample_std_dev
